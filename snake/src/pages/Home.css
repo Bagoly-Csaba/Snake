@@ -1,0 +1,74 @@
+table {
+    font-family:  Helvetica;
+    border-collapse: collapse;
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+     
+  }
+  
+  td,  th {
+    border: 1px solid #419490;
+    padding: 8px;
+    
+  }
+  
+   tr:nth-child(even){background-color: #86b4c4;}
+  
+   tr:hover {background-color: #52808e;}
+  
+   th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #54b1ad;
+    color: white;
+  }
+  button {
+    background-color: #20B2AA; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+  }
+  *{
+      font-size: 25px;
+  }
+  .container{
+    height: 70px;
+  position: relative;
+  border: 1px solid #20B2AA;
+  }
+  .gomb {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  input{
+    width: 100%;
+    padding-top: 12px ;
+    box-sizing: border-box;
+    border: 2px solid #20B2AA;
+    border-radius: 4px;
+    background-color: #86b4c4;
+    font-size: 16px;
+    resize: none;
+  }
+  .doboz{
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height: 70px;
+    border: 1px solid #20B2AA;
+    width: 400px;
+  }

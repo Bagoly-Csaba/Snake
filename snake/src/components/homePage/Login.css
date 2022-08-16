@@ -1,0 +1,49 @@
+.card{margin: auto;
+    text-align: center;
+  width: 100%;
+  border: 1px solid #20B2AA;
+  padding: 30px;
+  margin-top: 50px;
+}
+.gombi{
+  margin-top: 14px;
+  margin-bottom: -14px;
+}
+input{
+  margin-top: 10px;
+  border-radius: 1%;
+}
+.createGomb{
+  margin: 10px;
+}
+.createDoboz{
+  margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height: 70px;
+    border: 1px solid #20B2AA;
+    width: 400px;
+}
+.createDoboz2{
+    margin-top: 10px;
+    margin-left: -1px;
+    height: 70px;
+    border: 1px solid #20B2AA;
+    width: 400px;
+}
+.createDoboz3{
+  position: absolute;
+    top: 70%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  margin-top: 10px;
+  margin-left: -1px;
+  padding-top: 5px;
+  height: 70px;
+  border: 1px solid #20B2AA;
+  
+}
